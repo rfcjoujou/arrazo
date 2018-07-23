@@ -1,0 +1,55 @@
+body {
+	margin:0;
+	font-family:Arial;
+	font-size:14px;
+}
+.topo {
+	height:30px;
+	background-color:#393944;
+}
+.topint {
+	width:100%;
+	max-width:1040px;
+	margin:auto;
+	font-size:16px;
+}
+.topoleft {
+	background-color:red;
+	width:683px;
+	height:30px;
+	float:left;
+}
+.toporight {
+	float:right;
+	width:683px;
+	margin-top:2px;
+	height:26px;
+
+}
+.toporight ul {
+	float:right;
+	margin:auto;
+	line-height:30px;
+	text-align:right;
+	padding-right:10px;
+}
+.toporight a {
+	float:right;
+}
+.toporight ul img {
+	
+	margin-right:6px;
+}
+.toporight ul input {
+	float:right;	
+	margin-left:3px;
+	margin-right:3px;
+}
+.topobusca {
+	width:140px;
+	height:28px;
+	outline:0;
+}
+.fundo:hover {
+	background-color:#fff;
+}
