@@ -61,15 +61,15 @@ body {
 .logoint {
 	width:100%;
 	height:120px;
-	justify-content:row;
+	
 	
 }
 .logotot {
 	float:left;
 	text-align:left;
-
+	height:50px;
 	font-size:24px;
-	margin-top:11px;
+	line-height:50px;
 	margin-left:15px;
 	color:#FFF;
 	font-family:Time New Roma;
@@ -88,16 +88,29 @@ body {
 .redetot {
 	display:flex;
 	float:right;
-	margin-top:20px;
-	margin-right:4px;
-	width:270px;
-	height:30px; 
-	background-color:green;
+	margin-top:14px;
+	margin-right:14px;
+	width:180px;
+	height:23px; 
 	flex-direction:column;
 
 }
-.redetot ul a {
+.redetot input ul {
+	display:flex;
+	flex-direction:column;
+} 
+.busca input {
+	flex-direction:column;
+	width:150px;
+	height:23px;
+	
 
+}
+.enviarpesquisa input {
+	flex-direction:column;
+	float:right;
+	margin-right:4px;
+	margin-top:-22px;
 
 }
 .search {
@@ -105,33 +118,31 @@ body {
 }
 
 .menuint {
-	
 	width:800px;
 	color:#afa382;
 	height:50px;
 	display:flex;
 	float:right;
 	margin-left:250px;
-	margin-top:-37px;
+	margin-top:-50px;
+	
+	
 }
 .logotot ul {
 	list-style:none;
 	display:flex;
-	text-align:center;
+
 	font-size:18px;
 
 }
 .logo ul li {
 
-	text-align:left;
+	text-align:center;
 	padding-left:10px;
 	padding-right:10px;
-	margin-top:-4px; 
+	margin-top:-16px;
 	
 }
 
-.teste {
-	background-color:blue;
 
-}
 
