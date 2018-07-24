@@ -105,13 +105,14 @@ body {
 }
 
 .menuint {
-	width:900px;
+	
+	width:800px;
 	color:#afa382;
-	height:60px;
+	height:50px;
 	display:flex;
 	float:right;
-	margin-left:20px;
-	margin-top:-15px;
+	margin-left:250px;
+	margin-top:-37px;
 }
 .logotot ul {
 	list-style:none;
@@ -121,9 +122,11 @@ body {
 
 }
 .logo ul li {
+
 	text-align:left;
 	padding-left:10px;
-	padding-right:10px; 
+	padding-right:10px;
+	margin-top:-4px; 
 	
 }
 
